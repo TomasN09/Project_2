@@ -7840,78 +7840,98 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px; }
 
-/* ---------------AURORA--------------- */
-/* .navbar {
-    font-weight: 100;
+/*   ----------showcase-home----------- */
+#showcase {
+  background: url(../images/main2.png) bottom center/cover no-repeat;
+  min-height: 880px;
+  position: relative;
+  /*   h3{
+        text-transform: uppercase;
+    } */ }
+  #showcase h1 {
+    font-family: "Questrial", sans-serif;
+    line-height: 1;
+    text-transform: uppercase; }
+  #showcase #book {
+    font-size: 1.5rem;
+    border-radius: 2rem; }
+  #showcase #overlay {
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
-    right: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+  #showcase #header {
+    z-index: 2; }
+  #showcase #form {
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 3;
+    border-radius: 20px; }
 
-    .navbar-brand h3 {
-        font-weight: 100;
-    }
-    .nav-item{
-        font-size: 1.4rem;
-    }
-    .nav-link:hover{
-        border-bottom: 1px solid white;
-    }
-}
-#showcase{
-    background: url(../images/main.jpeg) bottom center / cover no-repeat;
-    min-height: 750px;
-    position: relative;
-    h1{
-        font-family: "Questrial", sans-serif;
-        line-height: 1;
-        text-transform: uppercase;
-    }
-    h3{
-        text-transform: uppercase;
-    }
-    #book{
-        font-size: 1.5rem;
-        border-radius: 2rem;      
-    }
+/*   ----------showcase-home-konec----------- */
+/*   ----------navbar----------- */
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3; }
+  .navbar .navbar-brand h3 {
+    font-weight: 100; }
+  .navbar .nav-item {
+    font-size: 1.4rem; }
+  .navbar .nav-link:hover {
+    border-bottom: 1px solid white;
+    font-size: 2rem; }
 
-    #overlay{
-        background-color: rgba(0,0,0,.4);
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-    }
-    #header{
-        z-index: 2;
-    }
-}
-                       
-#quotes{
-    i{
-        opacity: .4;
-    }    
-}
-#footer{
-    font-weight: 100;
-}
+/* -------------history ----------- */
+#font1 {
+  font-family: 'Nunito', sans-serif; }
 
-@media(max-width:768px){
-    .navbar{
-        background-color: #1f1f1f;
-        .nav-link:hover{
-            border-bottom: none;
-        }
-    }
-    #showcase{
-        min-height: 500px;
-        h1{
-            font-size: 4rem;
-        }
-    }
-} */
+#font2 {
+  font-family: 'Source Code Pro', monospace; }
+
+/* -------------history end ----------- */
+/* -------------price list ----------- */
+.table td {
+  padding-right: 0.2rem;
+  padding-left: 0.2rem; }
+
+/* ----------------carousel----------- */
+.carousel-caption {
+  padding: 0 0;
+  bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px; }
+  .carousel-caption p {
+    margin-bottom: 0 !important; }
+
+/* ----------------contacts----------- */
+#kontakty i {
+  font-size: 6rem; }
+
+#git {
+  font-size: 6rem; }
+
+@media (max-width: 768px) {
+  .navbar .nav-link:hover {
+    border-bottom: none; }
+
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 1.5rem; }
+    #showcase h3 {
+      font-size: 0.5rem; }
+
+  #address {
+    align-items: center; }
+
+  #kontakty i {
+    font-size: 4rem; } }
 
 /*# sourceMappingURL=main.css.map */
